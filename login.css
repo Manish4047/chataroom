@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  blue;
+}
+.login{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login1{
+    background-color: aliceblue;
+}
+.login h1{
+    color: aliceblue;
+    font-weight: 800;
+
+} 
+.login1{
+    padding: 20px;
+    border-radius:3%;
+}
+.login1 h3{
+    color: rgb(17, 17, 77);
+    text-align: center;
+    margin: 20px;
+    font-weight: 800;
+    font-size: large;
+
+}
+input{
+    width: 100%;
+    padding:5px;
+
+}
+
+.login1 button{
+    margin-left:130px;
+    padding:8px;
+    color: aliceblue;
+    background-color: rgb(12, 44, 71);
+    cursor: pointer;
+}
